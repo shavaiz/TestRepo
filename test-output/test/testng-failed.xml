@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test]">
+  <test name="testing(failed)">
+    <classes>
+      <class name="test.CreateNewInstanceSandbox">
+        <methods>
+          <include name="CreateNewInstanceSandbox"/>
+        </methods>
+      </class> <!-- test.CreateNewInstanceSandbox -->
+    </classes>
+  </test> <!-- testing(failed) -->
+</suite> <!-- Failed suite [test] -->

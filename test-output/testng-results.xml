@@ -2,16 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36392" started-at="2017-12-31T02:21:28Z" finished-at="2017-12-31T02:22:05Z">
+  <suite name="test" duration-ms="28279" started-at="2018-01-03T19:13:55Z" finished-at="2018-01-03T19:14:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36392" started-at="2017-12-31T02:21:28Z" finished-at="2017-12-31T02:22:05Z">
+    <test name="testing" duration-ms="28279" started-at="2018-01-03T19:13:55Z" finished-at="2018-01-03T19:14:24Z">
       <class name="test.CreateNewInstance">
-        <test-method status="PASS" signature="CreateNewInstance()[pri:0, instance:test.CreateNewInstance@3ffc5af1]" name="CreateNewInstance" duration-ms="36360" started-at="2017-12-30T21:21:28Z" finished-at="2017-12-30T21:22:05Z">
+        <test-method status="PASS" signature="startBrowser(java.lang.String, java.lang.String)[pri:0, instance:test.CreateNewInstance@5622fdf]" name="startBrowser" is-config="true" duration-ms="10105" started-at="2018-01-03T14:13:45Z" finished-at="2018-01-03T14:13:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.salesforce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:test.CreateNewInstance@5622fdf]" name="Login" is-config="true" duration-ms="1679" started-at="2018-01-03T14:13:55Z" finished-at="2018-01-03T14:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="CreateNewInstance()[pri:0, instance:test.CreateNewInstance@5622fdf]" name="CreateNewInstance" duration-ms="25409" started-at="2018-01-03T14:13:57Z" finished-at="2018-01-03T14:14:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateNewInstance -->
+        <test-method status="PASS" signature="RefreshBrowser()[pri:0, instance:test.CreateNewInstance@5622fdf]" name="RefreshBrowser" is-config="true" duration-ms="1151" started-at="2018-01-03T14:14:22Z" finished-at="2018-01-03T14:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshBrowser -->
       </class> <!-- test.CreateNewInstance -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- testing -->
+  </suite> <!-- test -->
 </testng-results>

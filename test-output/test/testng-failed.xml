@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [test]">
+  <parameter name="url" value="https://login.salesforce.com/"/>
+  <parameter name="Browser" value="firefox"/>
   <test name="testing(failed)">
     <classes>
-      <class name="test.CreateNewInstanceSandbox">
+      <class name="test.CreateNewInstance">
         <methods>
-          <include name="CreateNewInstanceSandbox"/>
+          <include name="startBrowser"/>
+          <include name="RefreshBrowser"/>
+          <include name="CreateNewInstance"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- test.CreateNewInstanceSandbox -->
+      </class> <!-- test.CreateNewInstance -->
     </classes>
   </test> <!-- testing(failed) -->
 </suite> <!-- Failed suite [test] -->

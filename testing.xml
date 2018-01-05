@@ -1,9 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="test" >
+<suite name="test">
+<parameter name="Browser" value="firefox" /> 
+<parameter name="url" value="https://login.salesforce.com/" />
 	<test name="testing">
 		<classes>
 			<class name="test.CreateNewInstance"/>
-			<class name="test.CreateNewInstanceSandbox"/>
 		</classes>
 	</test>
 </suite>

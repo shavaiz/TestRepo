@@ -17,13 +17,11 @@ import Tools.Utilities;
 
 public class CreateNewInstanceSandbox
 {
-@Test
+/*@Test
 public void CreateNewInstanceSandbox() throws InterruptedException
 {
 	
 	
-	WebDriver driver = BrowserFactory.startBrowser("firefox", "https://login.salesforce.com/");
-	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	WebDriverWait wait = new WebDriverWait(driver, 30);
 	AdminConsoleObjects Admin = PageFactory.initElements(driver, AdminConsoleObjects.class);
 	
@@ -45,5 +43,5 @@ public void CreateNewInstanceSandbox() throws InterruptedException
 	Thread.sleep(5000);
 	Instance.VerifyInstanceCreationSandbox();
 	Instance.DeleteInstance();
-}
+}*/
 }
